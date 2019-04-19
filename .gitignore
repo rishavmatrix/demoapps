@@ -1,0 +1,45 @@
+.DS_Store
+.idea
+.repository
+target/
+Chrome*/
+coverage/
+
+#Node specific files
+npm-debug.log.*
+databases/
+http_request_archive/
+node_modules/
+bower_components/
+components/*
+!react/components/
+dist/
+logs/
+npm-debug.log
+reports/
+src/_app/src/main/webapp/resources/sap/client/cod/**/*
+#lib-*.js and .js.map are auto-generated during nexus deployment in Jenkins
+src/_app/src/main/webapp/resources/sap/client/lib-*.js*
+#Visual Studio User specific files
+*.suo
+*.user
+_Chutzpah.*.test.html
+_ReSharper*/
+*.resharper
+*.vspscc
+*.vssscc
+*.Debug.config
+*.Release.config
+obj/
+*.iml
+src/_customtheming/src/main/uilib/sap/client/customtheming/git .gitignore
+src/_customtheming/.settings
+src/_tartaros/src/main/uilib/sap/client/tartaros/bundle.js
+.vscode
+.vscode/settings.json
+src/.gitignore
+tmp.json
+.history/
+
+#Sonarqube
+.scannerwork/
